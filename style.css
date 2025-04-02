@@ -1,0 +1,38 @@
+/* === General Page Styling  === */
+body {
+  background-color: #f4f4f4; /* Light grey background */
+  font-family: Arial, sans-serif; /* Set global font */
+  color: #222; /* Base text color */
+}
+
+/* === Heading Styling === */
+h1 {
+  background-color: #004aad; /* Blue background */
+  color: white; /* White text */
+  font-size: 36px; /* Large header text */
+  padding: 10px;
+  text-align: center;
+}
+
+/* === Paragraph Styling === */
+p {
+  font-size: 18px; /* Readable paragraph text */
+  color: #555; /* Slightly lighter gray */
+}
+
+/* === Class Section Containers === */
+.class-section {
+  background-color: #ffffff; /* White background for each class */
+  padding: 20px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+}
+
+/* === Notes ===
+  - 2 background colors used (body + .class-section + h1)
+  - 2 text colors used (h1 white, p gray)
+  - Font-family: Arial
+  - Font-size: h1 + p
+  - Structured layout with padding and spacing
+  - Removed internal css 
+    */
